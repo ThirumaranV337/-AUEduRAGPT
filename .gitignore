@@ -1,0 +1,66 @@
+# ===========================
+# Environment & Virtual Env
+# ===========================
+.env
+.venv/
+venv/
+env/
+
+# ===========================
+# Python Cache
+# ===========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ===========================
+# Vector Databases (Generated)
+# ===========================
+Semester-1-data-source-vector/
+Semester-2-data-source-vector/
+Semester-3-data-source-vector/
+Semester-4-Data-source-vector/
+Semester-5-Data-source-vector/
+Semester-6-Data-source-vector/
+user_vector/
+
+# ===========================
+# Knowledge Base (PDFs)
+# ===========================
+knowledge_base/
+
+# ===========================
+# Chroma / Vector DB Files
+# ===========================
+*.sqlite3
+*.bin
+*.pickle
+*.pkl
+
+# ===========================
+# Jupyter Notebook
+# ===========================
+test.ipynb
+.ipynb_checkpoints/
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# Logs
+# ===========================
+*.log
+
+# ===========================
+# OS Files
+# ===========================
+.DS_Store
+Thumbs.db
+
+# ===========================
+# Git LFS
+# ===========================
+.gitattributes
